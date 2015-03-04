@@ -36,7 +36,9 @@
         <div id="background" style="background-image:url(img/space2.jpg)"></div>
 
 
-        
+        <div class="footer-details">
+            <p>&copy; 2010 - <?php echo date('Y') ?> The VIE Foundation. All Rights Reserved</p>
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
