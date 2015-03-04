@@ -4,10 +4,6 @@ RewriteEngine on
 #RewriteCond %{ENV:REDIRECT_STATUS} ^$
 #RewriteRule \.php$ - [R=404,L]
 
-# rewrite requests for a directory to index.php
-RewriteCond %{REQUEST_FILENAME}/index.php -f
-RewriteRule ^.*$ $0/index.php [L]
-
 
 
 <IfModule mod_rewrite.c>

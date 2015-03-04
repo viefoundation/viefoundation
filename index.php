@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>VIE Foundation</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -23,9 +23,9 @@
             <img id="logo" src="img/logo.png"/>
             <h2>Articles</h2>
             <ul>
-                <li><a href="https://medium.com/@troyhollinger/dear-katha-pollitt-630bd8b573db">Dear Katha Pollitt</a></li>
-                <li><a href="https://medium.com/@austenpayan/lets-talk-about-abortion-differently-3964efc3f369">Let's Talk About Abortion...Differently</a></li>
-                <li><a href="https://medium.com/@troyhollinger/i-felt-the-need-to-better-present-the-abortion-cause-af25c95df1ff">Why This Was Started</a></li>
+                <li><a href="https://medium.com/@troyhollinger/dear-katha-pollitt-630bd8b573db" target="_blank">Dear Katha Pollitt</a></li>
+                <li><a href="https://medium.com/@austenpayan/lets-talk-about-abortion-differently-3964efc3f369" target="_blank">Let's Talk About Abortion...Differently</a></li>
+                <li><a href="https://medium.com/@troyhollinger/i-felt-the-need-to-better-present-the-abortion-cause-af25c95df1ff" target="_blank">Why This Was Started</a></li>
             </ul>
         </div>
         
