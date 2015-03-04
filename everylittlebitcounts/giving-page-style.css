@@ -1,0 +1,1775 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.bg-fixed {
+	background-attachment: fixed;
+}
+
+
+
+body {
+	background-color:#8E1321;
+	/*border:solid pink thin;*/
+}
+
+.text {
+	width:1000px;
+	height:700px;
+	position:absolute;
+	top:10px;
+	left:50%;
+	margin:0px 0 0 -500px;
+	/*border:solid yellow thin;*/
+}
+
+#textsvg {
+	width:1000px;
+	position:relative;
+	top:0px;
+	/*border:solid blue thin;*/
+}
+#textsvgmobile {
+	display:none;
+}
+#givebutton {
+	width:504px;
+	position:relative;
+	/*border:solid green thin;*/
+	top:-260px;
+	left:485px;
+	bottom:0;
+	right:0;
+}
+#giving-blurb {
+	position:absolute;
+	top:490px;
+	left:120px;
+	width:865px;
+	border-top:solid white thin;
+	padding-top:10px;
+	/*border:solid yellow thin;*/
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+#giving-blurb-mobile {
+	visibility:hidden;
+	/*border-top:solid white thin;*/
+	padding-top:10px;
+	position:absolute;
+	border-width: 1pt;
+}
+a {
+	opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+a:hover {
+	opacity:.5;
+}
+.privacy {
+	text-decoration:none;
+	color:white;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:thin;
+	font-size:13px;
+}
+#policy_text {
+	width:600px;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-weight:200;
+	letter-spacing:1px;
+	-webkit-text-rendering: optimizeLegibility;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+#policy_text a{
+	color:white;
+}
+#policy_text h1{
+	text-align:left;
+}
+strong {
+	font-weight:normal;
+	font-family:"HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, sans-serif;
+}
+
+h2 {
+	font-weight:normal;
+	font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, sans-serif;
+
+}
+#pripol {
+	font-size: 20px;
+}
+#back {
+	position:fixed;
+	left:10%;	
+	top:60px;
+}
+.readmore {
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	position:absolute;
+	width:500px;
+	top:-3px;
+	left:43%;
+	right:46%;
+	font-size:18px;
+	text-decoration: none;
+	color: white;
+}
+.bottomlinks {
+	position:absolute;
+	width:500px;
+	top:95%;
+	left:40%;
+	right:46%;
+}
+.bottomlinks-index {
+	position:absolute;
+	width:500px;
+	top:850px;
+	left:40%;
+	right:46%;
+	/*border:solid red thin;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*================================================= FORM.PHP STYLES ==========================================*/
+
+.form_page {
+	background-color:#8E1321;
+	color:white;
+	font-family: "HelveticaNeue-Light", "HelveticaNeueLight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:300;
+}
+
+.topblurb {
+	position:absolute;
+	width:890px;
+	height:100px;
+	font-family:'HelveticaNeue-UltraLight', "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	left:50%;
+	margin:30px 0 0 -445px;
+}
+.topblurb a {
+	color:white;
+	text-decoration: none;
+}
+
+.form_style {
+	width:890px;
+	height:600px;
+	overflow:auto;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-300px 0 0 -450px;
+}
+.form_style p{
+	
+	width:400px;
+	height:40px;
+	margin-bottom:30px;
+}
+.form_style label:not(#exp) {
+	display:none;
+}
+label {
+	font-family: 'HelveticaNeue-UltraLight', "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-size:25px;
+	border-bottom:solid white thin;
+	padding-bottom:2px;
+}
+.form_style input{
+	background-color:rgba(0,0,0,0);
+	border:none;
+	border-bottom: solid white thin;
+	-webkit-transition:all ease-in-out .2s;
+	-moz-transition:all ease-in-out .2s;
+	color:white;
+	width:100%;
+	font-size:25px;
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+.form_style input:focus {
+	/*background-color:rgba(255,255,255,.5);*/
+	outline:none;
+}
+#submit_button {
+	border: solid white thin;
+	width:400px;
+	height:75px;
+	float:right;
+	font-size:45px;
+	font-weight:100;
+	float:right;
+	margin-top:-105px;
+	cursor:hand;
+}
+#submit_button:hover {
+	background-color: #780116;
+}
+
+/*NAME*/
+form p:nth-child(1) {
+	float:left;
+}
+/*MAILING ADDRESS*/
+form p:nth-child(2) {
+	float: right;
+}
+/*EMAIL ADDRESS */
+form p:nth-child(3) {
+	float: left;
+}
+/*CITY*/
+form p:nth-child(4) {
+	width:195px;
+	float:left;
+	margin-left:90px;
+}
+/*STATE*/
+form p:nth-child(5) {
+	width:195px;
+	float:right;
+}
+/*CREDIT CARD NUMBER*/
+form p:nth-child(6) {
+	float:left;
+}
+/*ZIP CODE*/
+form p:nth-child(7) {
+	float:right;
+}
+/*EXPIRES*/
+form p:nth-child(8) {
+	float: left;
+	width:225px;
+}
+/*CVV*/
+form p:nth-child(9) {
+	float:left;
+	width:150px;
+	margin-left:25px;
+}
+/*AMOUNT*/
+form p:nth-child(10) {
+	width:400px;
+}
+#amount {
+	width:400px;
+	font-size:25px;
+	font-family:'HelveticaNeue-UltraLight', "HelveticaNeue-Light","HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-weight:100;
+	border-bottom:solid white thin;
+	letter-spacing: 1px;
+	clear:both;
+	text-align:;
+}
+#amount span{
+	font-size:15px;
+	margin-left:-5px;
+}
+#expiration_month {
+	width:65px;
+	text-align: center;
+}
+#expiration_year {
+	width:65px;
+	text-align: center;
+	float:right;
+}
+#city {
+	width:195px;
+}
+#state {
+	width:195px;
+}
+#cvv {
+	text-align: center;
+}
+#selector {
+	width: auto;
+	background:transparent;
+	font-family: 'HelveticaNeue-UltraLight', "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-weight:100;
+	color:white;
+	font-size:25px;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	outline:none;
+	border-radius:0px;
+	border:none;
+}
+#selector:focus {
+	outline: none;
+	border:none;
+}
+#selector option {
+	background:transparent;
+	color:white;
+	font-size:25px;
+	-webkit-appearance:none;
+	-mox-appearance:none;
+	text-indent: 0.01px;
+    text-overflow: '';
+}
+#amount_text {
+	position:absolute;
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-size:15px;
+	width:auto;
+	height:auto;
+	line-height: 100%;
+	top:380px;
+	font-weight:100;
+}
+#address_text {
+	position:absolute;
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-size:15px;
+	width:auto;
+	top:214px;
+	left:495px;
+	font-weight:100;
+
+}
+#contribute_text {
+	position:absolute;
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-size:15px;
+	width:auto;
+	left:525px;
+	top:385px;
+	text-align:center;
+	font-weight:100;
+
+}
+
+#one-time {
+	color:white;
+	text-decoration: none;
+	/*-webkit-font-smoothing:antialiased;*/
+	letter-spacing: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================== READ MORE PAGE ===============================================*/
+.moonshot-readmore{
+	background-image:url('VIE-thankyou.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:top;
+	width:100%;
+	height:100%;
+}
+
+#readmore-contain {
+	position:absolute;
+	width:900px;
+	height:700px;
+	left:50%;
+	top:50%;
+	margin:-350px 0 0 -450px;
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	color:white;
+}
+#readmore-blurb{
+	width:100%;
+}
+#readmore-contain a {
+	text-decoration: none;
+	color:white;
+	font-weight:100;
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+
+}
+#readmore-givebutton {
+	position:absolute;
+	width:249px;
+	top:130px;
+	left:645px;
+}
+
+#readmore-contain p {
+	position:absolute;
+	top:530px;
+	left:645px;
+}
+
+#readmore-blurb-mobile {
+	visibility:hidden;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*================================================THANK YOU PAGE===========================================*/
+
+.moonshot {
+	background-image:url('VIE-thankyou.jpg');
+	background-size:cover;
+	background-position: top;
+	background-attachment:fixed;
+
+}
+#thankyou_text {
+	position:absolute;
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	color:white;
+	font-weight:100;
+	font-size:90px;
+	width:670px;
+	height:300px;
+	top:50%;
+	left:50%;
+	margin:-150 0 0 -335px;
+}
+#thankyou_text p a {
+	text-decoration:none;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============================================ PROCESSING MESSAGE ===================================*/
+
+.processing {
+	font-family: 'HelveticaNeue-UltraLight',  Helvetica, sans-serif;
+	color:white;
+	font-size:30px;
+	width:400px;
+	height:400px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-200px 0 0 -200px;
+	text-align:center;
+}
+
+.processing a {
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||
+
+
+
+
+===============================================iPad Portrait============================================*/
+
+
+@media only screen 
+/*and (min-device-width : 768px) */
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+/*and (-webkit-min-device-pixel-ratio: 2)*/ { 
+.text {
+	/*border:solid green thin;*/
+	width:100%;
+	height:1560px;
+	top:0px;
+	left:0px;
+	margin-left:0px;
+	margin-right:0px;
+	overflow:hidden;
+
+}
+body {
+	/*border:solid pink thin;*/
+	overflow:hidden;
+}
+
+html {
+	/*border:solid purple thin;*/
+	overflow:hidden;
+}
+
+#textsvg {
+	display:none;
+	/*border:solid blue thin;*/
+}
+#textsvgmobile {
+	display:block;
+	width:500px;
+	position:absolute;
+	top:0px;
+	left:137px;
+	/*border:solid blue thin;*/
+}
+#givebutton {
+	width:465px;
+	position:relative;
+	/*border:solid green thin;*/
+	top:655px;
+	left:154px;
+}
+
+#giving-blurb {
+	visibility:hidden;
+}
+
+#giving-blurb-mobile {
+	visibility:visible;
+	left:160px;
+	top:950px;
+	width:460px;
+	/*border:solid yellow thin;*/
+}
+
+.bottomlinks-index {
+	position:absolute;
+	width:500px;
+	top:1540px;
+	left:28%;
+	right:46%;
+	/*border:solid yellow thin;*/
+}
+
+.bottomlinks {
+	/*border:solid orange thin;*/
+	width:400px;
+	left:30%;
+}
+
+.readmore {
+	/*border:solid green thin;*/
+	width:200px;
+	left:210px;
+	top:-4px;
+}
+
+/*=====================FORM.PHP iPad Portrait===================*/
+
+.topblurb {
+	width:500px;
+	font-size:20px;
+	margin-left:0px;
+	left:18%;
+	top:-10px;
+}
+.form_style {
+	width:auto;
+	height:920px;
+	overflow:scroll;
+	position:absolute;
+	left:5%;
+	top:12%;
+	margin:0px 0 0 0px;
+	/*border:solid yellow thin;*/
+	
+}
+.form_style p{
+	
+	width:500px;
+	height:40px;
+	margin-bottom:30px;
+	margin-left:100px;
+	/*border:solid green thin;*/
+}
+.form_style label:not(#exp) {
+	display:none;
+}
+
+label {
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-weight: 500;
+	letter-spacing: 1px;
+	font-size:30px;
+	padding-bottom:10px;
+}
+.form_style input{
+	background-color:rgba(0,0,0,0);
+	border:none;
+	border-bottom: solid white thin;
+	-webkit-transition:all ease-in-out .2s;
+	color:white;
+	width:100%;
+	font-size:30px;
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-weight: 500;
+	letter-spacing: 1px;
+	border-radius:0px;
+	text-align: left
+}
+#submit_button {
+	border: solid white thin;
+	width:500px;
+	height:75px;
+	float:none;
+	font-size:45px;
+	font-weight:100;
+	text-align:center;
+	float:none;
+	margin-top:30px;
+	margin-left:100px;
+	margin-bottom:30px;
+	cursor:hand;
+	position:absolute;
+	top:760px;
+}
+/*NAME*/
+form p:nth-child(1) {
+	float:none;
+	text-align:left;
+}
+/*MAILING ADDRESS*/
+form p:nth-child(2) {
+	float:none;
+	position:absolute;
+	top:475px;
+
+}
+/*EMAIL ADDRESS */
+form p:nth-child(3) {
+	float:none;
+	position:absolute;
+	top:85px;
+}
+/*CITY*/
+form p:nth-child(4) {
+	width:245px;
+	float:left;
+	margin-left:100px;
+	position:absolute;
+	top:585px;
+}
+/*STATE*/
+form p:nth-child(5) {
+	width:245px;
+	float:left;
+	margin-left:355px;
+	position:absolute;
+	top:585px;
+}
+/*CREDIT CARD NUMBER*/
+form p:nth-child(6) {
+	float:none;
+	position:absolute;
+	top:185px;
+}
+/*ZIP CODE*/
+form p:nth-child(7) {
+	float:none;
+	position:absolute;
+	top:675px;
+}
+/*EXPIRES*/
+form p:nth-child(8) {
+	float:left;
+	width:500px;
+	position:absolute;
+	top:285px;
+}
+/*CVV*/
+form p:nth-child(9) {
+	float:left;
+	width:120px;
+	margin-left:0px;
+	position: absolute;
+	top:285px;
+	left:480px;
+}
+/*AMOUNT*/
+form p:nth-child(10) {
+	width:500px;
+	position:absolute;
+	top:375px;
+}
+#amount {
+	width:500px;
+	font-size:25px;
+	border-bottom:solid white thin;
+	letter-spacing: 1px;
+	clear:both;
+	text-align:;
+}
+#amount span{
+	font-size:15px;
+	margin-left:-10px;
+}
+#expiration_month {
+	width:100px;
+	text-align: center;
+	font-size:30px;
+	
+}
+#expiration_year {
+	width:100px;
+	text-align: center;
+	font-size: 30px;
+	float:none;
+	
+}
+#city {
+	width:245px;
+}
+#state {
+	width:245px;
+
+}
+#cvv {
+	text-align: center;
+	font-size:30px;
+}
+
+#amount_text {
+	position:absolute;
+	font-size:18px;
+	width:auto;
+	height:auto;
+	top:430px;
+	left:35px;
+}
+#address_text {
+	font-size:18px;
+	width:auto;
+	height:auto;
+	top:730px;
+	left:60px;
+}
+#contribute_text {
+	font-size:18px;
+	width:auto;
+	height:auto;
+	left:55px;
+	top:850px;
+	text-align:center;
+}
+
+/*====================================== READ MORE ===================================*/
+#readmore-contain {
+	width:100%;
+
+}
+
+
+.moonshot-readmore {
+	position:fixed;	
+}
+
+#readmore-blurb{
+	visibility:hidden;
+}
+
+#readmore-blurb-mobile{
+	visibility:visible;	
+	width:400px;
+	position:absolute;
+	top:50px;
+	left:275px;
+}
+
+#readmore-givebutton {
+	left:300px;
+	width:300px;
+	top:2000px;
+}
+
+#readmore-contain p {
+	top:2500px;
+	left:315px;
+	padding-bottom:100px;
+	font-size:25px;
+	font-weight:500;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===============================================iPad Landscape============================================*/
+
+@media only screen 
+/*and (min-device-width : 768px) */
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+/*and (-webkit-min-device-pixel-ratio: 2)*/ { 
+
+.text {
+	width:1000px;
+	height:875px;
+	position:absolute;
+	top:0;
+	left:0;
+	margin:0px 0 0 0px;
+	/*border:solid green thin;*/
+	overflow:hidden;
+}
+
+.bottomlinks {
+	width:500px;
+	top:95%;
+	left:35%;
+	right:46%;
+}
+
+.bottomlinks_index {
+	top:900px;
+	left:35%;
+	right:46%;
+	/*border:solid green thin;*/
+
+}
+.form_style {
+	margin-top:-225px;
+}
+#giving-blurb {
+	/*border:solid yellow;*/
+}
+
+#givebutton {
+	/*border:solid blue thin;*/
+}
+
+
+input {
+	border-radius:0px;
+
+}
+
+/*CVV*/
+form p:nth-child(9) {
+	float:left;
+	width:105px;
+	margin-left:15px;
+}
+
+/*EXPIRES*/
+form p:nth-child(8) {
+	float: left;
+	width:280px;
+}
+
+label {
+	padding-bottom:8px;
+}
+
+#expiration_month {
+	width:80px;
+	text-align: center;
+}
+#expiration_year {
+	width:100px;
+	text-align: center;
+}
+#address_text {
+	position:absolute;
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-size:15px;
+	width:auto;
+	top:225px;
+	left:495px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===============================================iPhone Portrait============================================*/
+
+@media only screen 
+and (max-device-width : 750px) and (orientation:portrait) {
+
+html {
+	height:500px;
+	/*border:solid green;*/
+}
+.text {
+	width:300px;
+	height:850px;
+	top:0%;
+	left:0%;
+	margin:0px 0 0 0px;
+	margin-bottom:0px;
+	/*border:solid pink thin;*/
+	overflow:hidden;
+}
+#textsvg {
+	display:none;
+}
+#textsvgmobile {
+	display:block;
+	width:260px;
+	position:absolute;
+	top:10px;
+	left:30px;
+}
+#givebutton {
+	width:242px;
+	position:relative;
+	margin-top:0px;
+	margin-bottom:0px;
+	left:39px;
+	top:355px;
+}
+
+#givebutton:active {
+	border-radius:0px;
+}
+#giving-blurb {
+	visibility:hidden;
+}
+#giving-blurb-mobile {
+	visibility:visible;
+	left:40px;
+	top:500px;
+	width:240px;
+	/*border:solid green thin;*/
+}
+
+#moonshot {
+	height:auto;
+	width:auto;
+	overflow:hidden;
+}
+#thankyou_text {
+	font-size: 40px;
+	top:50%;
+	left:50%;
+	margin:-70px 0 0 -147px;
+	width:auto;
+	height:auto;
+	overflow:hidden;
+}
+.bottomlinks {
+	position:absolute;
+	width:250px;
+	top:95%;
+	left:14%;
+	right:46%;
+	overflow:hidden;
+	
+}
+
+.bottomlinks-index{
+	/*border:solid green thin;*/
+	width:240px;
+	left:45px;
+	top:820px;
+	margin-bottom:20px;
+	overflow:hidden;
+}
+.privacy {
+	text-decoration:none;
+	color:white;
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-weight:thin;
+	font-size:9px;
+	/*border:solid yellow thin;*/
+}
+.readmore {
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	position:absolute;
+	width:500px;
+	top:-3px;
+	left:60%;
+	right:46%;
+	font-size:13px;
+	text-decoration: none;
+	color: white;
+	/*border:solid yellow thin;*/
+}
+
+#policy_text {
+	width:300px;
+	color:white;
+	font-family:Helvetica; sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+	font-weight:200;
+	-webkit-text-rendering: optimizeLegibility;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+#policy_text a{
+	color:white;
+}
+#policy_text h1{
+	text-align:left;
+}
+#back {
+	position:static;
+	left:10%;	
+	top:60px;
+}
+
+
+.processing {
+	font-family: 'HelveticaNeue-UltraLight',  Helvetica, sans-serif;
+	color:white;
+	font-size:20px;
+	width:300px;
+	height:400px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-200px 0 0 -150px;
+	text-align:center;
+}
+
+
+
+/*===================IPHONE PORTRAITFORM.PHP STYLES ==========================================*/
+.topblurb {
+	font-size:15px;
+	width:300px;
+	left:12px;
+	top:-20px;
+}
+
+.form_style {
+	width:100%;
+	height:760px;
+	overflow:scroll;
+	position:absolute;
+	left:0%;
+	top:25%;
+	margin:0px 0 0 0px;
+	/*border:solid yellow thin;*/
+	
+}
+.form_style p{
+	
+	width:300px;
+	height:40px;
+	margin-bottom:30px;
+	margin-left:10px;
+	/*border:solid green thin;*/
+}
+.form_style label:not(#exp) {
+	display:none;
+}
+label {
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-size:20px;
+	border-bottom:solid white thin;
+	padding-bottom:5px;
+}
+.form_style input{
+	background-color:rgba(0,0,0,0);
+	border:none;
+	border-bottom: solid white thin;
+	-webkit-transition:all ease-in-out .2s;
+	color:white;
+	width:100%;
+	font-size:25px;
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-weight: 500;
+	letter-spacing: 1px;
+	border-radius:0px;
+	text-align: left
+}
+#submit_button {
+	border: solid white thin;
+	width:300px;
+	height:75px;
+	float:none;
+	font-size:45px;
+	font-weight:100;
+	float:none;
+	margin-top:30px;
+	margin-left:10px;
+	margin-bottom:30px;
+	cursor:hand;
+	position:absolute;
+	top:580px;
+}
+#submit_button:hover {
+	border-radius:0px;
+	background-color:none;
+	background-image:none;
+	-webkit-appearance:none;
+	appearance:none;
+}
+/*#submit_button:active {
+	border-radius:0px;
+	background-color:none;
+	-webkit-appearance:none;
+	appearance:none;
+	background:none;
+}*/
+/*#submit_button:visited {
+	background-color:none;
+	-webkit-appearance:none;
+	appearance:none;
+	background:none;
+	border-radius:0px;
+
+}*/
+
+/*NAME*/
+form p:nth-child(1) {
+	float:none;
+	text-align:left;
+}
+/*MAILING ADDRESS*/
+form p:nth-child(2) {
+	float:none;
+	position:absolute;
+	top:350px;
+
+}
+/*EMAIL ADDRESS */
+form p:nth-child(3) {
+	float:none;
+	position:absolute;
+	top:70px;
+}
+/*CITY*/
+form p:nth-child(4) {
+	width:140px;
+	float:left;
+	margin-left:10px;
+	position:absolute;
+	top:420px;
+}
+/*STATE*/
+form p:nth-child(5) {
+	width:140px;
+	float:left;
+	margin-left:169px;
+	position:absolute;
+	top:420px;
+}
+/*CREDIT CARD NUMBER*/
+form p:nth-child(6) {
+	float:none;
+	position:absolute;
+	top:140px;
+}
+/*ZIP CODE*/
+form p:nth-child(7) {
+	float:none;
+	position:absolute;
+	top:490px;
+}
+/*EXPIRES*/
+form p:nth-child(8) {
+	float:left;
+	width:220px;
+	position:absolute;
+	top:210px;
+}
+/*CVV*/
+form p:nth-child(9) {
+	float:left;
+	width:60px;
+	margin-left:0px;
+	position: absolute;
+	top:210px;
+	left:250px;
+}
+/*AMOUNT*/
+form p:nth-child(10) {
+	width:300px;
+	position:absolute;
+	top:260px;
+}
+#amount {
+	width:300px;
+	font-size:25px;
+	border-bottom:solid white thin;
+	letter-spacing: 1px;
+	clear:both;
+	text-align:;
+}
+#amount span{
+	font-size:15px;
+	margin-left:-10px;
+}
+#expiration_month {
+	width:65px;
+	text-align: center;
+	font-size:18px;
+}
+#expiration_year {
+	width:65px;
+	text-align: center;
+	font-size: 18px;
+}
+#city {
+	width:140px;
+}
+#state {
+	width:140px;
+
+}
+#cvv {
+	text-align: center;
+	font-size:18px;
+}
+
+#amount_text {
+	position:absolute;
+	font-size:12px;
+	width:auto;
+	height:auto;
+	top:320px;
+	left:3px;
+}
+#address_text {
+	font-size:12px;
+	width:auto;
+	height:auto;
+	top:545px;
+	left:25px;
+}
+#contribute_text {
+	font-size:12px;
+	width:auto;
+	height:auto;
+	left:20px;
+	top:680px;
+	text-align:center;
+}
+
+#one-time {
+	position: absolute;
+	top:580px;
+	left:20px;
+}
+
+/*======================================= READ MORE IPHONE PORTRAIT ===================================*/
+#readmore-contain {
+	width:100%;
+
+}
+
+
+.moonshot-readmore {
+	position:fixed;	
+}
+
+#readmore-blurb{
+	visibility:hidden;
+}
+
+#readmore-blurb-mobile{
+	visibility:visible;	
+	width:300px;
+	position:absolute;
+	top:150px;
+	left:300px;
+}
+
+#readmore-givebutton {
+	left:300px;
+	width:300px;
+	top:1580px;
+}
+
+#readmore-contain p {
+	top:1950px;
+	left:315px;
+	padding-bottom:100px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============================================================== iPhone Landscape ========================================*/
+@media only screen 
+and (max-device-width : 750px) and (orientation:landscape) {
+html {
+	/*border:solid blue thin;*/
+	overflow:hidden;
+	height:450px;
+}
+.text {
+	width:400px;
+	height:450px;
+	position:absolute;
+	top:0;
+	left:14%;
+	margin:0px 0 0 0px;
+	overflow:hidden;
+	/*border:solid green thin;*/
+}
+#textsvg {
+	width:400px;
+	position:relative;
+	top:0px;
+	left:0px;
+	/*border:solid blue thin;*/
+}
+#textsvgmobile {
+	display:none;
+}
+#givebutton {
+	width:193px;
+	position:absolute;
+	top:85px;
+	/*border:solid green thin;*/
+	margin-top:0px;
+	left:193px;
+}
+#giving-blurb {
+	width:340px;
+	top:200px;
+	left:45px;
+}
+#thankyou_text {
+	font-size: 40px;
+	top:50%;
+	height:auto;
+	width:auto;
+	left:50%;
+	margin:-50px 0 0 -140px;
+	overflow:hidden;
+}	
+.bottomlinks-index {
+	/*border:solid green thin;*/
+	top:400px;
+	width:240px;
+	left:140px;
+}
+.bottomlinks {
+	position:absolute;
+	width:375px;
+	top:95%;
+	left:35%;
+	overflow:hidden;
+}
+#moonshot {
+	height:auto;
+	width:auto;
+	overflow:hidden;
+}
+.privacy {
+	font-size:8px;
+}
+.readmore {
+	left:130px;
+	top:-3px;
+	font-size:11px;
+	/*border:solid yellow thin;*/
+	width:100px;
+}
+.processing {
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	color:white;
+	font-size:30px;
+	width:400px;
+	height:400px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-100px 0 0 -200px;
+	text-align:center;
+}
+
+/*=============================== FORM.PHP LANDSCAPE ================================*/
+.topblurb {
+	width:480px;
+	margin-left:-250px;
+	margin-top:0px;
+}
+.form_style {
+	width:auto;
+	height:920px;
+	overflow:scroll;
+	position:absolute;
+	left:-11.5%;
+	top:30%;
+	margin:0px 0 0 0px;
+	/*border:solid yellow thin;*/
+	
+}
+.form_style p{
+	
+	width:500px;
+	height:40px;
+	margin-bottom:30px;
+	margin-left:100px;
+	/*border:solid green thin;*/
+}
+.form_style label:not(#exp) {
+	display:none;
+}
+label {
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-weight: 500;
+	letter-spacing: 1px;
+	font-size:30px;
+	padding-bottom:10px;
+}
+.form_style input{
+	background-color:rgba(0,0,0,0);
+	border:none;
+	border-bottom: solid white thin;
+	-webkit-transition:all ease-in-out .2s;
+	color:white;
+	width:100%;
+	font-size:30px;
+	font-family: 'HelveticaNeue-UltraLight', 'HelveticaNeueUltraLight',"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-weight: 500;
+	letter-spacing: 1px;
+	border-radius:0px;
+	text-align: left
+}
+#submit_button {
+	border: solid white thin;
+	width:500px;
+	height:75px;
+	float:none;
+	font-size:45px;
+	font-weight:100;
+	text-align:center;
+	float:none;
+	margin-top:30px;
+	margin-left:100px;
+	margin-bottom:30px;
+	cursor:hand;
+	position:absolute;
+	top:760px;
+}
+#submit_button:hover {
+	border-radius:0px;
+	background-color:none;
+	background-image:none;
+	-webkit-appearance:none;
+	appearance:none;
+}
+
+/*NAME*/
+form p:nth-child(1) {
+	float:none;
+	text-align:left;
+}
+/*MAILING ADDRESS*/
+form p:nth-child(2) {
+	float:none;
+	position:absolute;
+	top:475px;
+
+}
+/*EMAIL ADDRESS */
+form p:nth-child(3) {
+	float:none;
+	position:absolute;
+	top:85px;
+}
+/*CITY*/
+form p:nth-child(4) {
+	width:245px;
+	float:left;
+	margin-left:100px;
+	position:absolute;
+	top:585px;
+}
+/*STATE*/
+form p:nth-child(5) {
+	width:245px;
+	float:left;
+	margin-left:355px;
+	position:absolute;
+	top:585px;
+}
+/*CREDIT CARD NUMBER*/
+form p:nth-child(6) {
+	float:none;
+	position:absolute;
+	top:185px;
+}
+/*ZIP CODE*/
+form p:nth-child(7) {
+	float:none;
+	position:absolute;
+	top:675px;
+}
+/*EXPIRES*/
+form p:nth-child(8) {
+	float:left;
+	width:500px;
+	position:absolute;
+	top:285px;
+}
+/*CVV*/
+form p:nth-child(9) {
+	float:right;
+	width:150px;
+	margin-left:10px;
+	position: absolute;
+	top:285px;
+	left:440px;
+}
+/*AMOUNT*/
+form p:nth-child(10) {
+	width:500px;
+	position:absolute;
+	top:375px;
+}
+#amount {
+	width:500px;
+	font-size:25px;
+	border-bottom:solid white thin;
+	letter-spacing: 1px;
+	clear:both;
+	text-align:;
+}
+#amount span{
+	font-size:15px;
+	margin-left:-10px;
+}
+#expiration_month {
+	width:100px;
+	text-align: center;
+	font-size:30px;
+}
+#expiration_year {
+	width:100px;
+	text-align: center;
+	font-size: 30px;
+	float:none;
+
+}
+#city {
+	width:245px;
+}
+#state {
+	width:245px;
+}
+#cvv {
+	text-align: center;
+	font-size:30px;
+}
+#amount_text {
+	position:absolute;
+	font-size:18px;
+	width:auto;
+	height:auto;
+	top:430px;
+	left:35px;
+}
+#address_text {
+	font-size:18px;
+	width:auto;
+	height:auto;
+	top:730px;
+	left:60px;
+}
+#contribute_text {
+	font-size:18px;
+	width:auto;
+	height:auto;
+	left:55px;
+	top:850px;
+	text-align:center;
+}
+	
+}
